@@ -1,88 +1,83 @@
-<h1 align="center">Hi 👋, I'm Anushka Soni</h1>
-<h3 align="center">A Undergrad Programmer from VIT Bhopal University</h3>
-<p align="center">I am fascinated by how computer technology 🌐 has brought changes to our lives that could never have been predicted; witnessing the expansion of computer science allowed me to consider studying software engineering from an early age, and my enthusiasm has perpetually developed since this time. And also I love exploring new tech stack 💻 and leveraging them to build cool stuffs 🛠️</p>
+<a name="readme-top"></a>
 
+<!-- PROJECT LOGO -->
+<br />
 <div align="center">
-  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon"width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="50" height="50" />
+  <a href="#">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Calculator Project | Web Development Internship | Next Gen Dev</h3>
+
+  <p align="center">
+    Unique Project Code : NEXTGENDEV-WD-L1-01!
+    <br />
+  </p>
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="icon" width="50" height="50" />
-</div>
-
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
-<br><br>
-
-- 🔭 I’m currently studying in **M.Tech (CSE CORE)**
-
-- 🌱 I’m currently learning **Web Development**
-
-- 💬 Ask me about **HTML, CSS, JS, Java, Python, PHP and NodeJS**
-
-- 📫 How to reach me **anushkasoni96526@gmail.com**
-
-- ⚡ **Academic Adroit**
 
 
-<br>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="#" height="30" width="40" /></a>
-<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="#" height="30" width="40" /></a>
-<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="#" height="30" width="40" /></a>
-<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="#" height="30" width="40" /></a>
-<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="#" height="30" width="40" /></a>
-</p>
-<br>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<h3 align="left">Languages and Tools:</h3>
 
-- Backend
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,java,nodejs,py,spring,flask,fastapi,express,nestjs" />
-  </a>
-</p>
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-- Frontend
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,tailwind,materialui" />
-  </a>
-</p>
+This is a simple calculator built with HTML, CSS, and JavaScript.
 
-- Database
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
-  </a>
-</p>
+# HTML Structure:
 
-- Cloud Servers
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=azure,aws,gcp,firebase,cloudflare" />
-  </a>
-</p>
+* The HTML uses a container (<div class="container">) to hold the calculator elements.
+* Inside the container, there's an input field (<input type="text" class="display">) to display the calculation results.
+* A second container (<div class="buttons">) holds all the calculator buttons.
+* Each button has a data-value attribute that defines the button's function (number, operator, etc.).
 
-- Tools
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,docker,figma,xd,idea,vscode,postman,linux" />
-  </a>
-</p>
+# Functionality:
 
-<br/>
+* The JavaScript code (script.js) handles user interaction with the buttons.
+* Clicking a number button updates the displayed value in the input field.
+* Clicking an operator button stores the operator and prepares for the next number input.
+* The equal button calculates the final result based on the stored operator and displayed value.
+* *(Optional)* Additional functionalities like clear button (AC), delete button (DEL), and handling decimal points can be implemented.
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+# Suggestions for Improvement:
 
+* *Error Handling*: Implement logic to handle invalid user input (e.g., dividing by zero).
+* *Advanced Operations*: Add functionalities for more complex mathematical operations like square root or percentage calculation.
+* *Memory Functions*: Allow storing and recalling previous calculations.
+* *Visual Design*: Style the calculator using CSS to improve its appearance (button colors, font size, etc.).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Anushka Soni - anushkasoni2244@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+I would like to express my gratitude to the following individuals and organizations for their support and contributions to this project:
+
+* Next Gen Dev: For providing the opportunity and resources to work on this project.
+* Mentors and Instructors: For their guidance and feedback throughout the development process.
+* Family and Friends: For their constant support and encouragement.
+* Online Communities: For the invaluable resources and tutorials that helped me overcome challenges.
+* Thank you all for making this project a success!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
